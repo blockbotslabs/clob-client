@@ -13,6 +13,7 @@ typechain/
 scripts/
 .idea/
 .nyc_output/
+.test/
 
 # files
 .env
