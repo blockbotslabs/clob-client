@@ -75,13 +75,13 @@ import { ClobClient, ApiError } from "@polymarket/clob-client";
 
 const clobClient = new ClobClient(
     host, 137, signer, await creds, signatureType, funder,
-    undefined, // geoBlockToken
-    undefined, // useServerTime
-    undefined, // builderConfig
-    undefined, // getSigner
-    undefined, // retryOnError
-    undefined, // tickSizeTtlMs
-    true,      // throwOnError
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined, 
+    true,
 );
 
 try {
